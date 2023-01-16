@@ -78,7 +78,7 @@ section{
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
     color: #a8f9ff;
-    padding: 80px 20px;
+    padding: 80px 40px;   
 }
 
 /* fundo foto principal */
@@ -89,6 +89,13 @@ section{
 }
 #foto{
     border-radius: 30px;
+    transition: all ease-in-out 0.4s;
+
+}
+#foto:hover{
+    width: 350px;
+    border-radius: 0;
+    transition: all ease-in-out 0.4s;
 }
 
 /* courses carrossel */
