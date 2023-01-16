@@ -1,19 +1,26 @@
 /* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inconsolata&family=Major+Mono+Display&family=Source+Code+Pro:wght@200;400&display=swap');
+
+font-family: 'Comfortaa', cursive;
+
+
+font-family: 'Source Code Pro', monospace;
+
 @font-face {
     font-family: "code";
-    src: url(font/Code.ttf);
+    src: url(/font/Code.ttf);
 }
 
-@font-face {
+/* @font-face {
     font-family: "major display";
-    src: url(font/MajorMonoDisplay-Regular.ttf);
+    src: url(/font/MajorMonoDisplay-Regular.ttf);
 
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: "comfortaa";
-    src: url(font/Comfortaa-VariableFont_wght.ttf);
-}
+    src: url(/font/Comfortaa-VariableFont_wght.ttf);
+} */
 
 /* styles */
 body{
@@ -24,10 +31,12 @@ body{
 }
 nav{
     background-color: #222222;
-    font-family: "major display";
+    font-family: 'Inconsolata', monospace;
 
 }
-
+span{
+    color:#a8f9ff
+}
 section{
     min-height: 100vh;
 }
@@ -66,8 +75,8 @@ section{
 }
 /* texto principal bio */
 .bio{
-    font-family: "code";
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
     color: #a8f9ff;
     padding: 80px 20px;
 }
