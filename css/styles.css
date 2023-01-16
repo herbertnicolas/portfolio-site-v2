@@ -1,0 +1,117 @@
+/* fontes */
+@font-face {
+    font-family: "Code";
+    src: url(/font/Code.ttf);
+}
+
+@font-face {
+    font-family: "Major Display";
+    src: url(/font/MajorMonoDisplay-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(/font/Comfortaa-VariableFont_wght.ttf);
+}
+
+/* styles */
+body{
+    background-image: linear-gradient(#282A3A ,#000000);
+    height: 100vh;
+    color: #38d8d3;
+    margin-top: 68px;
+}
+nav{
+    background-color: #222222;
+    font-family: "Major Display";
+
+}
+
+section{
+    min-height: 100vh;
+}
+.nav-link{
+    transition: all ease-in-out 0.2s;
+}
+.nav-link:hover{
+    border-bottom: 1px solid rgb(251, 255, 0);
+    transition: all ease-in-out 0.2s;
+}
+.nav-link::after{
+    background-color: #22A39F;
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:hover::after{
+    opacity: 1;
+    
+}
+
+/* linha embaixo do navbar */
+.bg-line{
+    background-color: #c7e9ff;
+    font-size: 2px;
+}
+
+#home{
+    background: rgba(0,0,0,.5) url(/img/notebook-bg.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+/* texto principal bio */
+.bio{
+    font-family: "Code";
+    font-size: 20px;
+    color: #a8f9ff;
+    padding: 80px 20px;
+}
+
+/* fundo foto principal */
+.bg-img{
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+#foto{
+    border-radius: 30px;
+}
+
+/* courses carrossel */
+#courses{
+    padding-top: 200px;
+}
+.carousel-inner{
+    height: 30em;
+}
+
+/* porfolio cards */
+#portfolio{
+}
+.card-bg{
+    opacity: 0.7;
+}
+
+.padding-top{
+    margin-top: 68px;
+}
+
+#gitimg{
+    padding-top: 300px;
+    padding-right: 150px;
+}
+
+#mapa{
+    padding-top: 200px;
+}
+
+#lkdimg{
+    padding-top: 300px;
+    padding-right: 150px;
+
+}
