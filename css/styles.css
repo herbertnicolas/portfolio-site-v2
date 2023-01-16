@@ -1,18 +1,18 @@
 /* fontes */
 @font-face {
     font-family: "Code";
-    src: url(/font/Code.ttf);
+    src: url(./font/Code.ttf);
 }
 
 @font-face {
     font-family: "Major Display";
-    src: url(/font/MajorMonoDisplay-Regular.ttf);
+    src: url(./font/MajorMonoDisplay-Regular.ttf);
 
 }
 
 @font-face {
     font-family: "Comfortaa";
-    src: url(/font/Comfortaa-VariableFont_wght.ttf);
+    src: url(./font/Comfortaa-VariableFont_wght.ttf);
 }
 
 /* styles */
@@ -60,7 +60,7 @@ section{
 }
 
 #home{
-    background: rgba(0,0,0,.5) url(/img/notebook-bg.jpg);
+    background: rgba(0,0,0,.5) url(./img/notebook-bg.jpg);
     background-blend-mode: multiply;
     background-size: cover;
 }
