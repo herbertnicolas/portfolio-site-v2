@@ -1,18 +1,18 @@
 /* fontes */
 @font-face {
-    font-family: "Code";
-    src: url(./font/Code.ttf);
+    font-family: "code";
+    src: url(font/Code.ttf);
 }
 
 @font-face {
-    font-family: "Major Display";
-    src: url(./font/MajorMonoDisplay-Regular.ttf);
+    font-family: "major display";
+    src: url(font/MajorMonoDisplay-Regular.ttf);
 
 }
 
 @font-face {
-    font-family: "Comfortaa";
-    src: url(./font/Comfortaa-VariableFont_wght.ttf);
+    font-family: "comfortaa";
+    src: url(font/Comfortaa-VariableFont_wght.ttf);
 }
 
 /* styles */
@@ -24,7 +24,7 @@ body{
 }
 nav{
     background-color: #222222;
-    font-family: "Major Display";
+    font-family: "major display";
 
 }
 
@@ -66,7 +66,7 @@ section{
 }
 /* texto principal bio */
 .bio{
-    font-family: "Code";
+    font-family: "code";
     font-size: 20px;
     color: #a8f9ff;
     padding: 80px 20px;
